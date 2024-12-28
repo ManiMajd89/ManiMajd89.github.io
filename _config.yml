@@ -1,9 +1,7 @@
 title: "Mani Majd's Portfolio"
 description: "Engineering Science Student at U of T | Passionate About Data Science and Machine Learning"
 author: Mani Majd
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-plugins:
-  - jekyll-include-cache
+theme: academic-jekyll-theme
 url: "https://ManiMajd89.github.io"
 baseurl: "" # Leave empty unless you're using a subfolder.
 github_username: ManiMajd89
