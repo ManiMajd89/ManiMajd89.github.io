@@ -1,6 +1,6 @@
 ---
 layout: default
-title: portfolio
+title: Portfolio
 ---
 
 <nav>
@@ -11,7 +11,6 @@ title: portfolio
     <li><a href="/contact/" style="text-decoration: none; font-weight: bold;">📞 Contact Me</a></li>
   </ul>
 </nav>
-
 
 # 📄 My Portfolio
 
