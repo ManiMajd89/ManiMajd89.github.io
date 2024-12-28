@@ -16,10 +16,12 @@ title: Portfolio
 
 Welcome to my portfolio! Below, you can view and download my resume:
 
-## 📂 Resume
-[**Download My Resume (PDF)**](https://github.com/ManiMajd89/your-resume-file-name.pdf)
+---
 
-*(Replace `your-resume-file-name.pdf` with the actual file name and upload the file to your repository)*
+## 📂 Resume
+[**Download My Resume (PDF)**](resume.pdf)
+
+*(Ensure your resume file is uploaded to the root directory of your repository and named `resume.pdf`. Replace this link if the filename is different.)*
 
 ---
 
