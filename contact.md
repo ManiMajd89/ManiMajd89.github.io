@@ -1,6 +1,6 @@
 ---
 layout: default
-title: contact
+title: Contact Me
 ---
 
 <nav>
@@ -11,6 +11,7 @@ title: contact
     <li><a href="/contact/" style="text-decoration: none; font-weight: bold;">📞 Contact Me</a></li>
   </ul>
 </nav>
+
 # 📞 Contact Me
 
 I’d love to hear from you! Here’s how you can reach me:
