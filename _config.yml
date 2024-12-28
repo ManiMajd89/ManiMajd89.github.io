@@ -1,7 +1,7 @@
 title: "Mani Majd's Portfolio"
 description: "Engineering Science Student at U of T | Passionate About Data Science and Machine Learning"
 author: Mani Majd
-theme: academic-jekyll-theme
+theme: jekyll-theme-minimal
 url: "https://ManiMajd89.github.io"
 baseurl: "" # Leave empty unless you're using a subfolder.
 github_username: ManiMajd89
