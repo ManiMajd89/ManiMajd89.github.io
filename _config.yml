@@ -1,4 +1,16 @@
-title: "My Professional Website"
-description: "Welcome to my portfolio!"
+title: "Mani Majd's Portfolio"
+description: "Engineering Science Student at U of T | Passionate About Data Science and Machine Learning"
+author: Mani Majd
 theme: minimal
-url: "https://manimajd89.github.io/"
+url: "https://ManiMajd89.github.io"
+baseurl: "" # Leave empty unless you're using a subfolder.
+github_username: ManiMajd89
+
+# Social Links
+social_links:
+  - name: GitHub
+    url: https://github.com/ManiMajd89
+  - name: Devpost
+    url: https://devpost.com/manimajd1389
+  - name: Email
+    url: mailto:mani.majd@mail.utoronto.ca
