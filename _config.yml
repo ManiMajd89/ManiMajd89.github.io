@@ -1,12 +1,13 @@
+# Site Settings
 title: Mani Majd's Portfolio
 description: A showcase of my journey, projects, and contact information.
 theme: jekyll-theme-minimal
 author: Mani Majd
-email: manimajd@example.com
-url: https://manimajd89.github.io
+email: manimajd1389@gmail.com
+url: https://ManiMajd89.github.io
 github_username: ManiMajd89
 
-# Navigation links
+# Navigation Menu
 navigation:
   - title: "Home"
     url: /
@@ -16,3 +17,13 @@ navigation:
     url: /projects/
   - title: "Contact Me"
     url: /contact/
+
+# Enable Plugins (Optional)
+plugins:
+  - jekyll-seo-tag # Improves SEO
+  - jekyll-sitemap # Generates a sitemap.xml for search engines
+
+# Markdown Configuration
+markdown: kramdown
+kramdown:
+  input: GFM # Enables GitHub Flavored Markdown
