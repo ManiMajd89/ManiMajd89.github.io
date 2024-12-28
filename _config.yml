@@ -1,16 +1,18 @@
-title: "Mani Majd's Portfolio"
-description: "Engineering Science Student at U of T | Passionate About Data Science and Machine Learning"
-author: Mani Majd
+title: Mani Majd's Portfolio
+description: A showcase of my journey, projects, and contact information.
 theme: jekyll-theme-minimal
-url: "https://ManiMajd89.github.io"
-baseurl: "" # Leave empty unless you're using a subfolder.
+author: Mani Majd
+email: manimajd@example.com
+url: https://manimajd89.github.io
 github_username: ManiMajd89
 
-# Social Links
-social_links:
-  - name: GitHub
-    url: https://github.com/ManiMajd89
-  - name: Devpost
-    url: https://devpost.com/manimajd1389
-  - name: Email
-    url: mailto:mani.majd@mail.utoronto.ca
+# Navigation links
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Portfolio"
+    url: /portfolio
+  - title: "Projects"
+    url: /projects
+  - title: "Contact Me"
+    url: /contact
