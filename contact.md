@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact Me
+title: contact
 ---
 
 <nav>
