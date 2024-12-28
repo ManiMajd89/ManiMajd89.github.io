@@ -12,15 +12,13 @@ title: Projects
   </ul>
 </nav>
 
-# 🎨 **Welcome to Mani Majd's Portfolio!**
+# 🛠️ My Projects
 
-👋 Hi! I'm **Mani Majd**, an engineering science student passionate about solving problems through technology. Below is a showcase of my projects, categorized by programming languages and domains.
+Welcome to my project showcase! Here you’ll find a curated list of my most notable projects, categorized by programming languages and domains.
 
 ---
 
-## 🛠️ **Featured Projects**
-
-### 🧮 **MATLAB**
+## 🧮 **MATLAB Projects**
 💡 **Bridge Analysis**  
 🔗 [View Project](https://github.com/ManiMajd89/Bridge-Analysis)  
 A structural analysis tool for bridges subjected to train loading, demonstrating expertise in MATLAB and civil engineering principles.
@@ -51,7 +49,7 @@ A reference for MATLAB beginners covering fundamental commands and concepts.
 
 ---
 
-### 🐍 **Python**
+## 🐍 **Python Projects**
 💻 **Weather Prediction using LSTMs**  
 🔗 [View Project](https://github.com/ManiMajd89/Weather-Prediction-model-using-LSTMs)  
 A multi-time-step weather prediction model utilizing LSTM networks.
@@ -98,12 +96,11 @@ A versatile Python-based calculator for basic and advanced math operations.
 
 ---
 
-### 🌟 **Other Projects**
+## 🌟 **Other Notable Projects**
 🧠 **NeuroGenix Alpha**  
 🔗 [View Project](https://github.com/ManiMajd89/NeuroGenix-Alpha)  
-A theoretical approach to Alzheimer's prevention using recombinant proteins.
+A theoretical approach to Alzheimer’s prevention using recombinant proteins.
 
 ---
 
-## 📫 **Let's Connect**
-Feel free to explore the projects and reach out to me at 📧 [manimajd@example.com](mailto:manimajd1389@gmail.com) for collaborations or questions!
+Feel free to explore these projects and reach out to collaborate on new ideas!
