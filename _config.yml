@@ -11,8 +11,8 @@ navigation:
   - title: "Home"
     url: /
   - title: "Portfolio"
-    url: /portfolio
+    url: /portfolio/
   - title: "Projects"
-    url: /projects
+    url: /projects/
   - title: "Contact Me"
-    url: /contact
+    url: /contact/
