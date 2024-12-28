@@ -10,13 +10,13 @@ github_username: ManiMajd89
 # Navigation Menu
 navigation:
   - title: "Home"
-    url: /
+    url: https://ManiMajd89.github.io/
   - title: "Portfolio"
-    url: /portfolio/
+    url: https://ManiMajd89.github.io/portfolio/
   - title: "Projects"
-    url: /projects/
+    url: https://ManiMajd89.github.io/projects/
   - title: "Contact Me"
-    url: /contact/
+    url: https://ManiMajd89.github.io/contact/
 
 # Enable Plugins (Optional)
 plugins:
