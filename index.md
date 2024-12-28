@@ -13,6 +13,7 @@ title: Home
 </nav>
 
 
+
 # 👋 Welcome to My Portfolio!
 
 Hi! I’m **Mani Majd**, an engineering science student at the University of Toronto. I’m passionate about robotics, machine learning, and computational modeling. 
