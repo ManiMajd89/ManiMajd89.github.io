@@ -1,30 +1,39 @@
 /* Body styling */
 body {
   background-color: #f5f5dc; /* Beige */
-  font-family: Arial, sans-serif; /* Ensure text is readable */
+  font-family: Arial, sans-serif; /* Clean and modern font */
 }
 
-/* Navigation bar styling */
+/* Navigation container styling */
 nav {
-  background-color: #f7f7d0; /* Light beige to match the background with a subtle contrast */
-  border: 1px solid #e1e1e1; /* Subtle border for separation */
-  padding: 10px 0; /* Space around the links */
-  text-align: center; /* Centers the navigation links */
-  border-radius: 8px; /* Rounds the corners of the white box */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a soft shadow for depth */
+  background-color: #fff7e6; /* Light cream color to complement beige */
+  padding: 20px; /* Adds space inside the box */
+  border-radius: 15px; /* Rounded corners for a modern look */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+  max-width: 600px; /* Limits width of the navigation box */
+  margin: 20px auto; /* Centers the box horizontally and adds spacing */
+  text-align: center; /* Centers the buttons inside the box */
 }
 
-/* Navigation links styling */
+/* Navigation link styling */
 nav a {
-  color: #0000ff; /* Same blue color as "Mani Majd's Portfolio" */
+  color: #0000ff; /* Same blue as "Mani Majd's Portfolio" text */
   text-decoration: none; /* Removes underline from links */
-  padding: 10px 15px; /* Space around each link */
-  font-size: 16px; /* Adjust text size */
-  font-weight: bold; /* Makes links stand out */
+  padding: 10px 20px; /* Adds padding inside the buttons */
+  margin: 5px; /* Adds space between buttons */
+  display: inline-block; /* Makes links behave like buttons */
+  font-size: 18px; /* Increases font size for better readability */
+  font-weight: bold; /* Makes text stand out */
+  border: 2px solid #0000ff; /* Adds a blue border */
+  border-radius: 10px; /* Rounds the buttons for a modern feel */
+  background-color: #f8f8ff; /* Light background for buttons */
+  transition: all 0.3s ease; /* Smooth hover transition */
 }
 
-/* Hover effect for navigation links */
+/* Hover effect for buttons */
 nav a:hover {
-  color: #4682b4; /* Slightly lighter blue when hovering */
-  text-decoration: underline; /* Optional hover effect */
+  background-color: #d1e7ff; /* Light blue background on hover */
+  color: #000080; /* Darker blue text on hover */
+  border-color: #000080; /* Darker blue border on hover */
+  text-decoration: none; /* Ensures no underline */
 }
