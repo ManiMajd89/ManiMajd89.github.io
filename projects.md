@@ -101,9 +101,20 @@ A versatile Python-based calculator for basic and advanced math operations.
 
 ## 🌟 **Other Notable Projects**
 🧠 **NeuroGenix Alpha**  
-🔗 [View Project](https://github.com/ManiMajd89/NeuroGenix-Alpha)  
-A theoretical approach to Alzheimer’s prevention using recombinant proteins.
 
+NeuroGenix Alpha is a theoretical research project aimed at combating Alzheimer’s disease through innovative neuroprotective biologics.
+
+- **Description**: Developed a recombinant protein combining Sirtuin-6 (SIRT6) and the catalytic domain of telomerase (TERT) to repair DNA damage and maintain telomere length, addressing aging and neurodegeneration.
+- **Highlights**:
+  - Designed for intranasal administration to cross the blood-brain barrier.
+  - Targets oxidative stress in brain cells for age-delaying and neuroprotective effects.
+
+### Resources:
+- 📄 **[Research PDF](https://github.com/ManiMajd89/ManiMajd89.github.io/blob/main/NeuroGenix-Aplha%20-%20Recombinant%20Brain%20Rehabilitating%20Protein.docx%20(1).pdf)**  
+  Read the detailed research report for an in-depth understanding of the project.
+
+- 🔗 **[LinkedIn Post](https://www.linkedin.com/in/mani-majd/details/honors/urn:li:fsd_profileHonor:(ACoAAEbsh-kBD3Xdqqflls6vyqvqHPlxcq9-Xos,181401085)/treasury/)**  
+  View the LinkedIn post for a concise summary and community recognition.
 ---
 
 Feel free to explore these projects and reach out to collaborate on new ideas!
