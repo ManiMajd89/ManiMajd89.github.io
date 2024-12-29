@@ -13,17 +13,15 @@ title: Home
   </ul>
 </nav>
 
-<div class="hero">
-  <h1>Welcome to Mani Majd's Portfolio</h1>
-  <p>Exploring innovation, creativity, and engineering excellence.</p>
-  <a href="/projects/">View My Work</a>
-</div>
 
 <div class="container">
-  <h2>About Me</h2>
-  <p>I’m an enthusiastic Engineering Science student passionate about technology, problem-solving, and innovation.</p>
+  <h1>Welcome to My Academic Portfolio</h1>
+  <p>Hi! I’m Mani Majd, an Engineering Science student at the University of Toronto. My work focuses on technology, problem-solving, and innovation in engineering. This website serves as a showcase of my academic journey and projects.</p>
 </div>
 
+<footer>
+  <p>© 2024 Mani Majd | Academic Portfolio</p>
+</footer>
 
 # 👋 Welcome to My Portfolio!
 
