@@ -19,7 +19,7 @@ title: Contact Me
 
 I’d love to hear from you! Here’s how you can reach me:
 
-- 📧 **Email**: [manimajd@example.com](mailto:manimajd@example.com)  
+- 📧 **Email**: [mani.majd@mail.utoronto.ca](mailto:mani.majd@mail.utoronto.ca)  
 - 🐱 **GitHub**: [github.com/ManiMajd89](https://github.com/ManiMajd89)  
 - 🌐 **Devpost**: [devpost.com/manimajd1389](https://devpost.com/manimajd1389)  
 - 💼 **LinkedIn**: [linkedin.com/in/mani-majd](https://www.linkedin.com/in/mani-majd)  
