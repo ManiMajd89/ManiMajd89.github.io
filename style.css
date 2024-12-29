@@ -1,40 +1,30 @@
 /* Body styling */
 body {
   background-color: #f5f5dc; /* Beige */
-  font-family: Arial, sans-serif;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  font-family: Arial, sans-serif; /* Ensure text is readable */
 }
 
 /* Navigation bar styling */
 nav {
-  background-color: #f8f9fa; /* Light gray that complements the background */
-  border: 1px solid #e1e1e1; /* Subtle border to separate the nav bar */
-  padding: 10px 0; /* Adds spacing inside the nav bar */
-  text-align: center; /* Centers the links */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for depth */
+  background-color: #f7f7d0; /* Light beige to match the background with a subtle contrast */
+  border: 1px solid #e1e1e1; /* Subtle border for separation */
+  padding: 10px 0; /* Space around the links */
+  text-align: center; /* Centers the navigation links */
+  border-radius: 8px; /* Rounds the corners of the white box */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a soft shadow for depth */
 }
 
-/* Styling the links in the navigation bar */
+/* Navigation links styling */
 nav a {
-  color: #191970; /* Same color as "Mani Majd's Portfolio" */
-  text-decoration: none;
-  padding: 10px 15px;
-  font-size: 16px;
-  font-weight: bold; /* Makes the links more prominent */
+  color: #0000ff; /* Same blue color as "Mani Majd's Portfolio" */
+  text-decoration: none; /* Removes underline from links */
+  padding: 10px 15px; /* Space around each link */
+  font-size: 16px; /* Adjust text size */
+  font-weight: bold; /* Makes links stand out */
 }
 
-/* Add hover effect for the navigation links */
+/* Hover effect for navigation links */
 nav a:hover {
-  color: #4682b4; /* Light steel blue for hover effect */
-  text-decoration: underline; /* Optional: Highlights the link */
-}
-
-/* Box/container for tabs (if applicable) */
-.nav-container {
-  background-color: #fff5e6; /* Soft light cream to complement the beige background */
-  padding: 15px;
-  border-radius: 8px; /* Rounded corners for a modern look */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds depth */
+  color: #4682b4; /* Slightly lighter blue when hovering */
+  text-decoration: underline; /* Optional hover effect */
 }
