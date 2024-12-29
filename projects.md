@@ -109,12 +109,18 @@ NeuroGenix Alpha is a theoretical research project aimed at combating Alzheimer�
   - Designed for intranasal administration to cross the blood-brain barrier.
   - Targets oxidative stress in brain cells for age-delaying and neuroprotective effects.
 
-### Resources:
+### Achievements
+- 🏅 **Award**:  
+  Received the **Bronze Medal** at the **2024 Toronto Science Fair** for the project *NeuroGenix Alpha: A Theoretical Recombinant Protein for Alzheimer’s Disease Prevention*.
+
+### Resources
 - 📄 **[Research PDF](https://github.com/ManiMajd89/ManiMajd89.github.io/blob/main/NeuroGenix-Aplha%20-%20Recombinant%20Brain%20Rehabilitating%20Protein.docx%20(1).pdf)**  
   Read the detailed research report for an in-depth understanding of the project.
 
 - 🔗 **[LinkedIn Post](https://www.linkedin.com/in/mani-majd/details/honors/urn:li:fsd_profileHonor:(ACoAAEbsh-kBD3Xdqqflls6vyqvqHPlxcq9-Xos,181401085)/treasury/)**  
   View the LinkedIn post for a concise summary and community recognition.
+
+
 ---
 
 Feel free to explore these projects and reach out to collaborate on new ideas!
