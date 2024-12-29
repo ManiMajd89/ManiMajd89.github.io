@@ -4,3 +4,11 @@ body {
   font-family: Arial, sans-serif; /* Clean and modern font */
 }
 
+.profile-pic {
+  width: 150px; /* Set the desired size of the image */
+  height: 150px; /* Ensure the image remains a perfect square */
+  border-radius: 50%; /* Makes the image circular */
+  border: 3px solid #ddd; /* Optional: Adds a light border */
+  margin: 10px auto; /* Adds spacing around the image */
+  display: block; /* Centers the image horizontally */
+}
