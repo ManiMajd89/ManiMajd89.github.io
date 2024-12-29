@@ -101,10 +101,10 @@ A versatile Python-based calculator for basic and advanced math operations.
 
 ## 🌟 **Other Notable Projects**
 🧠 **NeuroGenix Alpha**  
-
 NeuroGenix Alpha is a theoretical research project aimed at combating Alzheimer’s disease through innovative neuroprotective biologics.
 
 - **Description**: Developed a recombinant protein combining Sirtuin-6 (SIRT6) and the catalytic domain of telomerase (TERT) to repair DNA damage and maintain telomere length, addressing aging and neurodegeneration.
+  
 - **Highlights**:
   - Designed for intranasal administration to cross the blood-brain barrier.
   - Targets oxidative stress in brain cells for age-delaying and neuroprotective effects.
