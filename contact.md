@@ -14,15 +14,6 @@ title: Contact Me
 </nav>
 
 
-<div class="container">
-  <h2>Contact Me</h2>
-  <p>Feel free to reach out!</p>
-  <ul>
-    <li>Email: <a href="mailto:manimajd1389@gmail.com">manimajd1389@gmail.com</a></li>
-    <li>GitHub: <a href="https://github.com/ManiMajd89">ManiMajd89</a></li>
-    <li>LinkedIn: <a href="https://linkedin.com/in/mani-majd">Mani Majd</a></li>
-  </ul>
-</div>
 
 # 📞 Contact Me
 
