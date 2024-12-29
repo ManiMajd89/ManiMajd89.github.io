@@ -105,7 +105,8 @@ NeuroGenix Alpha is a theoretical research project aimed at combating Alzheimerâ
 
 - **Description**: Developed a recombinant protein combining Sirtuin-6 (SIRT6) and the catalytic domain of telomerase (TERT) to repair DNA damage and maintain telomere length, addressing aging and neurodegeneration.
   
-- **Highlights**: - Designed for intranasal administration to cross the blood-brain barrier.
+- **Highlights**:
+  - Designed for intranasal administration to cross the blood-brain barrier.
   - Targets oxidative stress in brain cells for age-delaying and neuroprotective effects.
 
 ### Achievements
