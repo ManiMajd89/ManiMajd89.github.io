@@ -1,1 +1,13 @@
+body {
+  background-color: #f0f8ff; /* Replace with your desired color */
+  font-family: Arial, sans-serif; /* Optional: ensure text is readable */
+}
 
+
+body {
+  background-image: url('images/background.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the whole screen */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Makes the background fixed while scrolling */
+  font-family: Arial, sans-serif; /* Optional */
+}
