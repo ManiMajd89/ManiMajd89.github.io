@@ -12,20 +12,11 @@ body {
   font-family: Arial, sans-serif; /* Optional */
 }
 
-/* Targeting the navigation bar */
-nav {
-  background-color: #ff7f50; /* Replace with the desired color */
-  border-bottom: 1px solid #ccc; /* Optional: Adds a border for separation */
-}
 
 /* Optional: Styling the text or links in the navigation bar */
 nav a {
-  color: #ffff; /* Text color for links */
+  color: #191970; /* Text color for links */
   text-decoration: none; /* Removes underline from links */
   padding: 10px 15px; /* Adds space around the links */
   display: inline-block;
-}
-
-nav a:hover {
-  color: #007bff; /* Optional: Hover color for links */
 }
