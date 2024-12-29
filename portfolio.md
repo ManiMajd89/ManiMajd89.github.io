@@ -14,25 +14,19 @@ title: Portfolio
 </nav>
 
 <div class="container">
-  <h2>My Portfolio</h2>
-  <p>Here are some of my featured works:</p>
+  <h1>Portfolio</h1>
+  <p>Below are highlights of my academic work:</p>
 
-  <div class="project">
-    <img src="https://via.placeholder.com/300" alt="Project 1">
-    <div>
-      <h3>NeuroGenix-Alpha</h3>
-      <p>A theoretical recombinant protein for Alzheimer's disease prevention.</p>
-    </div>
-  </div>
+  <h2>NeuroGenix-Alpha</h2>
+  <p>A theoretical recombinant protein project for Alzheimer's disease prevention. This research involved exploring SIRT6 and telomerase catalytic domains for neuroprotection.</p>
 
-  <div class="project">
-    <img src="https://via.placeholder.com/300" alt="Project 2">
-    <div>
-      <h3>Wordle Blitz</h3>
-      <p>A custom Wordle-like game written in Python.</p>
-    </div>
-  </div>
+  <h2>Wordle Blitz</h2>
+  <p>A Python-based custom version of Wordle, showcasing programming and algorithm design skills.</p>
 </div>
+
+<footer>
+  <p>© 2024 Mani Majd | Academic Portfolio</p>
+</footer>
 
 # 📄 My Portfolio
 
