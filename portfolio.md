@@ -23,7 +23,6 @@ Welcome to my portfolio! Below, you can view and download my resume:
 ## 📂 Resume
 [**Download My Resume (PDF)**](resume.pdf)
 
-*(Ensure your resume file is uploaded to the root directory of your repository and named `resume.pdf`. Replace this link if the filename is different.)*
 
 ---
 
