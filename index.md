@@ -2,7 +2,6 @@
 layout: default
 title: Home
 ---
-<link rel="stylesheet" href="/style.css">
 
 <nav>
   <ul style="list-style-type: none; padding: 0; display: flex; gap: 1rem; background-color: #f8f9fa; padding: 10px; border-bottom: 2px solid #ddd;">
@@ -13,15 +12,6 @@ title: Home
   </ul>
 </nav>
 
-
-<div class="container">
-  <h1>Welcome to My Academic Portfolio</h1>
-  <p>Hi! I’m Mani Majd, an Engineering Science student at the University of Toronto. My work focuses on technology, problem-solving, and innovation in engineering. This website serves as a showcase of my academic journey and projects.</p>
-</div>
-
-<footer>
-  <p>© 2024 Mani Majd | Academic Portfolio</p>
-</footer>
 
 # 👋 Welcome to My Portfolio!
 
