@@ -13,6 +13,27 @@ title: Portfolio
   </ul>
 </nav>
 
+<div class="container">
+  <h2>My Portfolio</h2>
+  <p>Here are some of my featured works:</p>
+
+  <div class="project">
+    <img src="https://via.placeholder.com/300" alt="Project 1">
+    <div>
+      <h3>NeuroGenix-Alpha</h3>
+      <p>A theoretical recombinant protein for Alzheimer's disease prevention.</p>
+    </div>
+  </div>
+
+  <div class="project">
+    <img src="https://via.placeholder.com/300" alt="Project 2">
+    <div>
+      <h3>Wordle Blitz</h3>
+      <p>A custom Wordle-like game written in Python.</p>
+    </div>
+  </div>
+</div>
+
 # 📄 My Portfolio
 
 Welcome to my portfolio! Below, you can view and download my resume:
