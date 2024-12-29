@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 <link rel="stylesheet" href="/style.css">
+
 <nav>
   <ul style="list-style-type: none; padding: 0; display: flex; gap: 1rem; background-color: #f8f9fa; padding: 10px; border-bottom: 2px solid #ddd;">
     <li><a href="/" style="text-decoration: none; font-weight: bold;">🏠 Home</a></li>
@@ -12,6 +13,16 @@ title: Home
   </ul>
 </nav>
 
+<div class="hero">
+  <h1>Welcome to Mani Majd's Portfolio</h1>
+  <p>Exploring innovation, creativity, and engineering excellence.</p>
+  <a href="/projects/">View My Work</a>
+</div>
+
+<div class="container">
+  <h2>About Me</h2>
+  <p>I’m an enthusiastic Engineering Science student passionate about technology, problem-solving, and innovation.</p>
+</div>
 
 
 # 👋 Welcome to My Portfolio!
