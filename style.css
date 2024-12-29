@@ -1,22 +1,40 @@
+/* Body styling */
 body {
-  background-color: #f5f5dc; /* Replace with your desired color */
-  font-family: Arial, sans-serif; /* Optional: ensure text is readable */
+  background-color: #f5f5dc; /* Beige */
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-
-body {
-  background-image: url('images/background.jpg'); /* Replace with your image path */
-  background-size: cover; /* Ensures the image covers the whole screen */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-attachment: fixed; /* Makes the background fixed while scrolling */
-  font-family: Arial, sans-serif; /* Optional */
+/* Navigation bar styling */
+nav {
+  background-color: #f8f9fa; /* Light gray that complements the background */
+  border: 1px solid #e1e1e1; /* Subtle border to separate the nav bar */
+  padding: 10px 0; /* Adds spacing inside the nav bar */
+  text-align: center; /* Centers the links */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for depth */
 }
 
-
-/* Optional: Styling the text or links in the navigation bar */
+/* Styling the links in the navigation bar */
 nav a {
-  color: #191970; /* Text color for links */
-  text-decoration: none; /* Removes underline from links */
-  padding: 10px 15px; /* Adds space around the links */
-  display: inline-block;
+  color: #191970; /* Same color as "Mani Majd's Portfolio" */
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold; /* Makes the links more prominent */
+}
+
+/* Add hover effect for the navigation links */
+nav a:hover {
+  color: #4682b4; /* Light steel blue for hover effect */
+  text-decoration: underline; /* Optional: Highlights the link */
+}
+
+/* Box/container for tabs (if applicable) */
+.nav-container {
+  background-color: #fff5e6; /* Soft light cream to complement the beige background */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds depth */
 }
