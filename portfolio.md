@@ -2,7 +2,7 @@
 layout: default
 title: Portfolio
 ---
-<link rel="stylesheet" href="/style.css">
+
 
 <nav>
   <ul style="list-style-type: none; padding: 0; display: flex; gap: 1rem; background-color: #f8f9fa; padding: 10px; border-bottom: 2px solid #ddd;">
@@ -13,20 +13,6 @@ title: Portfolio
   </ul>
 </nav>
 
-<div class="container">
-  <h1>Portfolio</h1>
-  <p>Below are highlights of my academic work:</p>
-
-  <h2>NeuroGenix-Alpha</h2>
-  <p>A theoretical recombinant protein project for Alzheimer's disease prevention. This research involved exploring SIRT6 and telomerase catalytic domains for neuroprotection.</p>
-
-  <h2>Wordle Blitz</h2>
-  <p>A Python-based custom version of Wordle, showcasing programming and algorithm design skills.</p>
-</div>
-
-<footer>
-  <p>© 2024 Mani Majd | Academic Portfolio</p>
-</footer>
 
 # 📄 My Portfolio
 
