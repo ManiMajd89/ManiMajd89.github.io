@@ -4,36 +4,41 @@ body {
   font-family: Arial, sans-serif; /* Clean and modern font */
 }
 
-/* Navigation container styling */
+/* Single navigation container styling */
 nav {
-  background-color: #fff7e6; /* Light cream color to complement beige */
-  padding: 20px; /* Adds space inside the box */
-  border-radius: 15px; /* Rounded corners for a modern look */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
-  max-width: 600px; /* Limits width of the navigation box */
-  margin: 20px auto; /* Centers the box horizontally and adds spacing */
-  text-align: center; /* Centers the buttons inside the box */
+  background-color: #fff7e6; /* Light cream to complement beige */
+  padding: 20px; /* Adds space inside the navigation container */
+  border-radius: 15px; /* Smooth rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+  max-width: 800px; /* Sets the width of the navigation box */
+  margin: 20px auto; /* Centers the box on the page */
+  text-align: center; /* Aligns the buttons horizontally */
 }
 
 /* Navigation link styling */
 nav a {
   color: #0000ff; /* Same blue as "Mani Majd's Portfolio" text */
   text-decoration: none; /* Removes underline from links */
-  padding: 10px 20px; /* Adds padding inside the buttons */
-  margin: 5px; /* Adds space between buttons */
-  display: inline-block; /* Makes links behave like buttons */
-  font-size: 18px; /* Increases font size for better readability */
+  padding: 10px 20px; /* Consistent padding for all buttons */
+  margin: 10px; /* Adds equal spacing between buttons */
+  display: inline-block; /* Ensures all buttons are uniform */
+  font-size: 18px; /* Adjusted text size */
   font-weight: bold; /* Makes text stand out */
-  border: 2px solid #0000ff; /* Adds a blue border */
-  border-radius: 10px; /* Rounds the buttons for a modern feel */
+  border: 2px solid #0000ff; /* Blue border for buttons */
+  border-radius: 10px; /* Rounded edges for modern style */
   background-color: #f8f8ff; /* Light background for buttons */
-  transition: all 0.3s ease; /* Smooth hover transition */
+  transition: all 0.3s ease; /* Smooth hover effect */
 }
 
 /* Hover effect for buttons */
 nav a:hover {
-  background-color: #d1e7ff; /* Light blue background on hover */
+  background-color: #d1e7ff; /* Light blue on hover */
   color: #000080; /* Darker blue text on hover */
   border-color: #000080; /* Darker blue border on hover */
-  text-decoration: none; /* Ensures no underline */
+}
+
+/* Fix box alignment and size */
+nav a {
+  line-height: 1.5; /* Consistent button height */
+  white-space: nowrap; /* Prevents buttons from breaking into multiple lines */
 }
