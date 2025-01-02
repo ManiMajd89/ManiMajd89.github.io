@@ -56,7 +56,7 @@ A reference for MATLAB beginners covering fundamental commands and concepts.
 
 💻 **Text Detection and Extraction From Images**
 🔗 [View Project](https://github.com/ManiMajd89/Image-Text-Extractor)  
-This project automates the extraction of textual information from images, enabling seamless digitization of text for further use. Built using OpenCV and Tesseract OCR, it preprocesses images, identifies text regions, and extracts text with precision. The program outputs the extracted text to a .txt file while also displaying it in the terminal, making it a powerful tool for processing scanned documents, photos, or screenshots.
+This project automates the extraction of textual information from images. Built using OpenCV and Tesseract OCR, it preprocesses images, identifies text regions, and extracts text with precision. The program outputs the extracted text to a .txt file while also displaying it in the terminal, making it a powerful tool for processing scanned documents, photos, or screenshots.
 
 💻 **Face Detection**  
 🔗 [View Project](https://github.com/ManiMajd89/Face-Detection/tree/main)  
