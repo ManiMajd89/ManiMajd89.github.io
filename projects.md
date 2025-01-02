@@ -53,6 +53,11 @@ A reference for MATLAB beginners covering fundamental commands and concepts.
 ---
 
 ## 🐍 **Python Projects**
+
+💻 **Text Detection and Extraction From Images**
+🔗 [View Project](https://github.com/ManiMajd89/Image-Text-Extractor)  
+This project automates the extraction of textual information from images, enabling seamless digitization of text for further use. Built using OpenCV and Tesseract OCR, it preprocesses images, identifies text regions, and extracts text with precision. The program outputs the extracted text to a .txt file while also displaying it in the terminal, making it a powerful tool for processing scanned documents, photos, or screenshots.
+
 💻 **Weather Prediction using LSTMs**  
 🔗 [View Project](https://github.com/ManiMajd89/Weather-Prediction-model-using-LSTMs)  
 A multi-time-step weather prediction model utilizing LSTM networks.
