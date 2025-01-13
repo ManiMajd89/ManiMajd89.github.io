@@ -21,12 +21,19 @@ Welcome to my portfolio! Below, you can view and download my resume:
 ---
 
 ## 📂 Resume
-[**Download My Resume (PDF)**](https://drive.google.com/uc?export=download&id=1sGxQgDG9rcE2ZpVkR2dweUG_7lvuOUyW)
+## 📂 Resume
 
-<a href="https://drive.google.com/uc?export=download&id=1sGxQgDG9rcE2ZpVkR2dweUG_7lvuOUyW" target="_blank">Download My Resume</a>
+### 📥 [**Download My Resume (PDF)**](https://drive.google.com/file/d/1sGxQgDG9rcE2ZpVkR2dweUG_7lvuOUyW/view?usp=sharing)
 
-<!-- Embed PDF Preview -->
-<embed src="https://drive.google.com/uc?export=view&id=1sGxQgDG9rcE2ZpVkR2dweUG_7lvuOUyW" width="100%" height="500px" type="application/pdf">
+---
+
+### 🔍 Resume Preview
+<iframe 
+  src="https://drive.google.com/file/d/1sGxQgDG9rcE2ZpVkR2dweUG_7lvuOUyW/preview" 
+  width="100%" 
+  height="500px" 
+  style="border: none;">
+</iframe>
 
 ---
 
