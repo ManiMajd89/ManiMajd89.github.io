@@ -19,8 +19,6 @@ title: Portfolio
 Welcome to my portfolio! Below, you can view and download my resume:
 
 ---
-
-## 📂 Resume
 ## 📂 Resume
 
 ### 📥 [**Download My Resume (PDF)**](https://drive.google.com/file/d/1sGxQgDG9rcE2ZpVkR2dweUG_7lvuOUyW/view?usp=sharing)
