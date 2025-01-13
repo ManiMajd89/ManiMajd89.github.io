@@ -37,4 +37,3 @@ Welcome to my portfolio! Below, you can view and download my resume:
 
 ---
 
-Feel free to explore my projects and reach out if you'd like to collaborate!
