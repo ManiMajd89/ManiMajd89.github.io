@@ -97,8 +97,7 @@ A C implementation of content-aware image resizing using seam carving. The proje
 💻 **Autocomplete Engine in C**
 🔗 [View Project](https://github.com/ManiMajd89/c-autocomplete-engine)  
 
-A fast, memory-efficient autocomplete engine written in C that supports prefix-based search using static preprocessing and binary search on sorted datasets. The implementation avoids dynamic trie structures, enabling low-latency queries with predictable performance and clean systems-level code.
-
+An efficient autocomplete engine implemented in C that retrieves top-weighted term matches for a given prefix using binary search. Optimized for fast lookups on large datasets.
 
 💻 **Semantic Similarity**  
 🔗 [View Project](https://github.com/ManiMajd89/Semantic-Similarity)  
