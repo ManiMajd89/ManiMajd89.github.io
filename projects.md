@@ -63,7 +63,7 @@ A real-time computer vision application that detects and tracks human faces from
 
 ---
 
-## 💻 Software Engineering Projects
+## 👨‍💻 Software Engineering Projects
 
 💻 **Seam Carving in C**  
 🔗 [View Project](https://github.com/ManiMajd89/SeamCarver-C-Content-Aware-Image-Resizer)
