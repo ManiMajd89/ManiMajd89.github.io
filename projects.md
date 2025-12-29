@@ -13,98 +13,132 @@ title: Projects
   </ul>
 </nav>
 
-
 # 🛠️ My Projects
 
 Welcome to my project showcase! Here you’ll find a curated list of my most notable projects spanning machine learning, software engineering, and numerical modeling.
 
 ---
+
 ## 🤖 Machine Learning & AI Projects
 
-💻 **Predicting the Remaining Useful Life (RUL) of Jet Turbofan Engines Using Neural ODEs**
-🔗 [View Project](https://github.com/EricHuang2FG/Predicting-the-Remaining-Useful-Life-of-Jet-Turbofan-Engines-Using-Depth-Continuous-Neural-ODEs) 
+💻 **Predicting the Remaining Useful Life (RUL) of Jet Turbofan Engines Using Neural ODEs**  
+🔗 [View Project](https://github.com/EricHuang2FG/Predicting-the-Remaining-Useful-Life-of-Jet-Turbofan-Engines-Using-Depth-Continuous-Neural-ODEs)
 
-A research-focused project investigating depth-continuous Neural Ordinary Differential Equations (NODEs) for predicting the Remaining Useful Life of jet turbofan engines using NASA’s CMAPSS time-series sensor dataset. Unlike discrete-depth LSTM and CNN models, the NODE framework models engine degradation as a continuous-time dynamical system, better aligning with the underlying physical processes and multi-scale sensor dynamics. A CNN–NODE variant was also explored to extract local temporal patterns before continuous-time modeling. The proposed approach achieved the lowest RMSE on fixed operating-condition datasets, reducing prediction error by approximately 44% compared to a CNN–LSTM–Attention baseline, and improved performance on multi-condition datasets with an additional 28% RMSE reduction, demonstrating superior stability and long-horizon prediction accuracy in safety-critical prognostics.
-
-
-💻 **Convolutional Spiking Neural Network (CSNN) using snnTorch**
-🔗 [View Project](https://github.com/ManiMajd89/convolutional-spiking-neural-network)  
-
-A biologically inspired Convolutional Spiking Neural Network trained from scratch on the MNIST dataset using Leaky Integrate-and-Fire neurons and surrogate-gradient backpropagation. The model processes each input over 100 discrete time steps, enabling temporal integration and sparse, event-driven computation instead of a single forward pass. Despite being trained for only one epoch, the network achieved a final test accuracy of 97.41%, with accuracy rapidly improving after early iterations, surpassing 95% by iteration 200 and stabilizing above 97% by iteration 350, demonstrating state-of-the-art performance for shallow spiking networks trained from scratch.
-
-
-💻 **Deep Neural Network for Image Classification**
-🔗 [View Project]
-
-A fully from-scratch implementation of deep neural networks for binary classification of RGB images as cat vs non-cat, developed without using machine learning libraries for core computations. The project implements all fundamental components, including parameter initialization, forward propagation, backpropagation with analytical gradients, binary cross-entropy loss, and gradient-descent optimization using NumPy. By increasing network depth from two to four layers and refining training dynamics, the model improved classification accuracy from 72% to 80%, clearly demonstrating the impact of network depth and optimization on learning expressive visual representations.
-
-
-💻 **Weather Prediction using LSTMs**  
-🔗 [View Project](https://github.com/ManiMajd89/Weather-Prediction-model-using-LSTMs)  
-
-A time-series forecasting project using a multi-layer LSTM network in PyTorch to predict Toronto weather variables through multi-step forecasting. The model was trained using a sliding-window data generator with a 10-step lookback and a 6-step forecast horizon, enabling prediction across multiple future time steps and target variables. Dropout regularization and a reshaped linear output head were used to improve stability and generalization. When evaluated on a held-out test set, the model achieved an RMSE of 0.8385, MAE of 0.1276, and R² score of 0.0508, demonstrating measurable performance gains over baseline approaches and validating the effectiveness of sequence-based modeling for weather prediction.
-
-💻 **Text Detection and Extraction From Images**
-🔗 [View Project](https://github.com/ManiMajd89/Image-Text-Extractor) 
-
-An image-based text extraction pipeline built using OpenCV and Tesseract OCR to automate the detection and extraction of textual content from images. The system applies preprocessing steps such as grayscale conversion, thresholding, and region segmentation to isolate text regions before OCR. Extracted text is saved to a .txt file and displayed in the terminal, enabling efficient processing of scanned documents, screenshots, and image-based text data.
-
-💻 **Face Detection**  
-🔗 [View Project](https://github.com/ManiMajd89/Face-Detection/tree/main)  
-A real-time computer vision application that detects and tracks human faces from a live webcam feed using OpenCV and Haar Cascade classifiers. The system draws bounding boxes around detected faces and supports customizable labels, while tuned detection parameters improve robustness across varying lighting conditions. This project serves as a practical foundation for more advanced vision tasks such as facial recognition, attendance systems, and human–computer interaction.
+A research-focused project investigating depth-continuous Neural Ordinary Differential Equations (NODEs) for predicting the Remaining Useful Life of jet turbofan engines using NASA’s CMAPSS time-series sensor dataset. Unlike discrete-depth LSTM and CNN models, the NODE framework models engine degradation as a continuous-time dynamical system, better aligning with underlying physical processes and multi-scale sensor dynamics. A CNN–NODE variant was explored to extract local temporal patterns prior to continuous-time modeling. The proposed approach achieved the lowest RMSE on fixed operating-condition datasets, reducing prediction error by approximately 44% compared to a CNN–LSTM–Attention baseline, and improved performance on multi-condition datasets with an additional 28% RMSE reduction, demonstrating superior stability and long-horizon prediction accuracy in safety-critical prognostics.
 
 ---
-##  **Software Engineering Projects**
 
-💻 **Seam Carving in C**
-🔗 [View Project](https://github.com/ManiMajd89/SeamCarver-C-Content-Aware-Image-Resizer)  
+💻 **Convolutional Spiking Neural Network (CSNN) using snnTorch**  
+🔗 [View Project](https://github.com/ManiMajd89/convolutional-spiking-neural-network)
 
-A C implementation of content-aware image resizing using seam carving. The project computes pixel energy maps, identifies minimum-energy seams using dynamic programming, and removes seams to resize images while preserving important visual features, demonstrating efficient algorithm design and low-level memory control.
+A biologically inspired Convolutional Spiking Neural Network trained from scratch on the MNIST dataset using Leaky Integrate-and-Fire neurons and surrogate-gradient backpropagation. The model processes each input over 100 discrete time steps, enabling temporal integration and sparse, event-driven computation instead of a single forward pass. Despite being trained for only one epoch, the network achieved a final test accuracy of 97.41%, with accuracy surpassing 95% by iteration 200 and stabilizing above 97% by iteration 350, demonstrating state-of-the-art performance for shallow spiking networks trained from scratch using surrogate gradients.
 
-💻 **Autocomplete Engine in C**
-🔗 [View Project](https://github.com/ManiMajd89/c-autocomplete-engine)  
+---
 
-An efficient autocomplete engine implemented in C that retrieves top-weighted term matches for a given prefix using binary search. Optimized for fast lookups on large datasets.
+💻 **Deep Neural Network for Image Classification**  
+🔗 [View Project](ADD_LINK_HERE)
 
-💻 **Semantic Similarity**  
-🔗 [View Project](https://github.com/ManiMajd89/Semantic-Similarity)  
-NLP-based project that evaluates semantic similarity using cosine similarity.
+A fully from-scratch implementation of deep neural networks for binary classification of RGB images as cat vs non-cat, developed without using machine learning libraries for core computations. The project implements parameter initialization, forward propagation, backpropagation with analytical gradients, binary cross-entropy loss, and gradient-descent optimization using NumPy. By increasing network depth from two to four layers and refining training dynamics, the model improved classification accuracy from 72% to 80%, demonstrating the impact of network depth and optimization on learning expressive visual representations.
+
+---
+
+💻 **Weather Prediction using LSTMs**  
+🔗 [View Project](https://github.com/ManiMajd89/Weather-Prediction-model-using-LSTMs)
+
+A time-series forecasting project using a multi-layer LSTM network in PyTorch to predict Toronto weather variables through multi-step forecasting. The model was trained using a sliding-window data generator with a 10-step lookback and a 6-step forecast horizon, enabling prediction across multiple future time steps and target variables. Dropout regularization and a reshaped linear output head were used to improve stability and generalization. When evaluated on a held-out test set, the model achieved an RMSE of 0.8385, MAE of 0.1276, and an R² score of 0.0508, demonstrating measurable performance gains over baseline approaches.
+
+---
+
+💻 **Text Detection and Extraction From Images**  
+🔗 [View Project](https://github.com/ManiMajd89/Image-Text-Extractor)
+
+An image-based OCR pipeline built using OpenCV and Tesseract OCR to automate the detection and extraction of textual content from images. The system applies preprocessing steps including grayscale conversion, thresholding, and region segmentation to isolate text regions prior to recognition. Extracted text is saved to a `.txt` file and displayed in the terminal, enabling efficient processing of scanned documents, screenshots, and image-based text data.
+
+---
+
+💻 **Face Detection**  
+🔗 [View Project](https://github.com/ManiMajd89/Face-Detection/tree/main)
+
+A real-time computer vision application that detects and tracks human faces from a live webcam feed using OpenCV and Haar Cascade classifiers. The system draws bounding boxes around detected faces and supports customizable labels, with tuned detection parameters improving robustness across varying lighting conditions. This project serves as a practical foundation for downstream vision tasks such as facial recognition and human–computer interaction.
+
+---
+
+## 💻 Software Engineering Projects
+
+💻 **Seam Carving in C**  
+🔗 [View Project](https://github.com/ManiMajd89/SeamCarver-C-Content-Aware-Image-Resizer)
+
+A C implementation of content-aware image resizing using seam carving. The project computes pixel energy maps, applies dynamic programming to identify minimum-energy seams, and iteratively removes seams to resize images while preserving important visual features, demonstrating efficient algorithm design and low-level memory control.
+
+---
+
+💻 **Autocomplete Engine in C**  
+🔗 [View Project](https://github.com/ManiMajd89/c-autocomplete-engine)
+
+A lightweight autocomplete engine written in C that retrieves top-weighted term matches for a given prefix using static preprocessing and binary search. The design avoids complex data structures such as tries, enabling fast lookups, predictable performance, and low memory overhead on large datasets.
+
+---
+
+💻 **Semantic Similarity (Classical NLP)**  
+🔗 [View Project](https://github.com/ManiMajd89/Semantic-Similarity)
+
+A classical NLP project that computes semantic similarity between words using distributional semantics and cosine similarity. The system constructs semantic descriptor vectors from sentence-level word co-occurrences and predicts synonyms using sparse vector similarity. The approach was evaluated on TOEFL-style synonym tests, achieving approximately 85% accuracy without relying on neural models.
+
+---
 
 💻 **Health and Hedons Tracker**  
-🔗 [View Project](https://github.com/ManiMajd89/Health-and-Hedons-Tracker)  
+🔗 [View Project](https://github.com/ManiMajd89/Health-and-Hedons-Tracker)
+
 Tracks health and happiness points based on user activities.
 
+---
+
 💻 **Gomoku: Five in a Row**  
-🔗 [View Project](https://github.com/ManiMajd89/Gomuku-Five-in-a-Row-)  
-A Python implementation of the classic Gomoku game with AI integration.
+🔗 [View Project](https://github.com/ManiMajd89/Gomuku-Five-in-a-Row-)
+
+A Python implementation of the Gomoku board game featuring AI-based move evaluation.
+
+---
 
 💻 **Scientific Calculator**  
-🔗 [View Project](https://github.com/ManiMajd89/Scientific-Calculator)  
-A GUI-based calculator with scientific functionalities built using Python's tkinter library.
+🔗 [View Project](https://github.com/ManiMajd89/Scientific-Calculator)
+
+A GUI-based calculator with scientific functionality built using Python’s tkinter library.
+
+---
 
 💻 **Wordle Blitz**  
-🔗 [View Project](https://github.com/ManiMajd89/Wordle-Blitz)  
-A custom implementation of the popular Wordle game.
+🔗 [View Project](https://github.com/ManiMajd89/Wordle-Blitz)
+
+A custom implementation of the Wordle word game.
+
+---
 
 💻 **Gradual Typing Effect**  
-🔗 [View Project](https://github.com/ManiMajd89/Gradual-Typing-Effect)  
-A dramatic typing effect script inspired by classic hacker movies.
+🔗 [View Project](https://github.com/ManiMajd89/Gradual-Typing-Effect)
+
+A scripted typing animation inspired by classic hacker-style interfaces.
+
+---
 
 💻 **Cryptography**  
-🔗 [View Project](https://github.com/ManiMajd89/Cryptography)  
+🔗 [View Project](https://github.com/ManiMajd89/Cryptography)
+
 Implements a Caesar cipher for encrypting and decrypting messages.
 
-💻 **Rock Paper Scissors Lizard Spock**  
-🔗 [View Project](https://github.com/ManiMajd89/Rock_Paper_Scissors_Lizard_Spock-)  
-A fun twist on the classic Rock Paper Scissors game.
+---
 
 💻 **YouTube Downloader**  
-🔗 [View Project](https://github.com/ManiMajd89/Youtube-Downloader)  
+🔗 [View Project](https://github.com/ManiMajd89/Youtube-Downloader)
+
 A script to download YouTube videos in the best available quality.
 
+---
+
 💻 **EasyMath**  
-🔗 [View Project](https://github.com/ManiMajd89/EasyMath)  
-A versatile Python-based calculator for basic and advanced math operations.
+🔗 [View Project](https://github.com/ManiMajd89/EasyMath)
+
+A Python-based calculator for basic and advanced mathematical operations.
 
 ---
 
