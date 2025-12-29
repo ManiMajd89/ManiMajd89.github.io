@@ -21,7 +21,7 @@ Welcome to my portfolio! Below, you can view and download my resume:
 ---
 ## 📂 Resume
 
-### 📥 [**Download My Resume (PDF)**]([https://drive.google.com/file/d/1mOcW2U0nCxyxkWwO3oaPut0md_vlVJMs/view?usp=sharing])
+### 📥 [**Download My Resume (PDF)**](https://drive.google.com/file/d/1mOcW2U0nCxyxkWwO3oaPut0md_vlVJMs/view?usp=sharing)
 
 ---
 
