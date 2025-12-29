@@ -16,7 +16,7 @@ title: Projects
 
 # 🛠️ My Projects
 
-Welcome to my project showcase! Here you’ll find a curated list of my most notable projects, categorized by programming languages and domains.
+Welcome to my project showcase! Here you’ll find a curated list of my most notable projects spanning machine learning, software engineering, and numerical modeling.
 
 ---
 ## 🤖 Machine Learning & AI Projects
@@ -47,43 +47,11 @@ A time-series forecasting project using a multi-layer LSTM network in PyTorch to
 💻 **Text Detection and Extraction From Images**
 🔗 [View Project](https://github.com/ManiMajd89/Image-Text-Extractor) 
 
-This project automates the extraction of textual information from images. Built using OpenCV and Tesseract OCR, it preprocesses images, identifies text regions, and extracts text with precision. The program outputs the extracted text to a .txt file while also displaying it in the terminal, making it a powerful tool for processing scanned documents, photos, or screenshots.
+An image-based text extraction pipeline built using OpenCV and Tesseract OCR to automate the detection and extraction of textual content from images. The system applies preprocessing steps such as grayscale conversion, thresholding, and region segmentation to isolate text regions before OCR. Extracted text is saved to a .txt file and displayed in the terminal, enabling efficient processing of scanned documents, screenshots, and image-based text data.
 
 💻 **Face Detection**  
 🔗 [View Project](https://github.com/ManiMajd89/Face-Detection/tree/main)  
-A real-time face detection project using OpenCV. This program captures video from a webcam, detects faces in the feed using a Haar Cascade classifier, and labels them with customizable text. It can serve as a foundation for advanced object detection projects.
-
-
-
-
-## 🧮 **MATLAB Projects**
-💡 **Bridge Analysis**  
-🔗 [View Project](https://github.com/ManiMajd89/Bridge-Analysis)  
-A structural analysis tool for bridges subjected to train loading, demonstrating expertise in MATLAB and civil engineering principles.
-
-💡 **Two-Story Building Free Vibration Simulation**  
-🔗 [View Project](https://github.com/ManiMajd89/Two-Story-Building-Free-Vibration-Simulation)  
-Simulates free vibration of a two-story building using numerical methods and analytical solutions.
-
-💡 **Initial Value Problem Euler Methods**  
-🔗 [View Project](https://github.com/ManiMajd89/Initial-Value-Problem-Euler-Methods)  
-Solves second-order IVPs using numerical methods, comparing results with analytical solutions.
-
-💡 **Least Squares Fit**  
-🔗 [View Project](https://github.com/ManiMajd89/Least-Squares-fit)  
-Models GPA and LSAT relationships using polynomial regression and evaluates errors.
-
-💡 **Riemann Sums Approximation**  
-🔗 [View Project](https://github.com/ManiMajd89/Riemann-Sums-Approximating-a-Definite-Integral)  
-Visualizes and compares Riemann sums with analytical integration solutions.
-
-💡 **Geometric Series Summation**  
-🔗 [View Project](https://github.com/ManiMajd89/Geometric-Series-Summation)  
-Highlights the differences between analytical and partial sums of a geometric series.
-
-💡 **MATLAB Fundamentals**  
-🔗 [View Project](https://github.com/ManiMajd89/MATLAB-Fundamentals)  
-A reference for MATLAB beginners covering fundamental commands and concepts.
+A real-time computer vision application that detects and tracks human faces from a live webcam feed using OpenCV and Haar Cascade classifiers. The system draws bounding boxes around detected faces and supports customizable labels, while tuned detection parameters improve robustness across varying lighting conditions. This project serves as a practical foundation for more advanced vision tasks such as facial recognition, attendance systems, and human–computer interaction.
 
 ---
 ##  **Software Engineering Projects**
@@ -92,7 +60,6 @@ A reference for MATLAB beginners covering fundamental commands and concepts.
 🔗 [View Project](https://github.com/ManiMajd89/SeamCarver-C-Content-Aware-Image-Resizer)  
 
 A C implementation of content-aware image resizing using seam carving. The project computes pixel energy maps, identifies minimum-energy seams using dynamic programming, and removes seams to resize images while preserving important visual features, demonstrating efficient algorithm design and low-level memory control.
-
 
 💻 **Autocomplete Engine in C**
 🔗 [View Project](https://github.com/ManiMajd89/c-autocomplete-engine)  
@@ -138,6 +105,37 @@ A script to download YouTube videos in the best available quality.
 💻 **EasyMath**  
 🔗 [View Project](https://github.com/ManiMajd89/EasyMath)  
 A versatile Python-based calculator for basic and advanced math operations.
+
+---
+
+## 🧮 **MATLAB Projects**
+💡 **Bridge Analysis**  
+🔗 [View Project](https://github.com/ManiMajd89/Bridge-Analysis)  
+A structural analysis tool for bridges subjected to train loading, demonstrating expertise in MATLAB and civil engineering principles.
+
+💡 **Two-Story Building Free Vibration Simulation**  
+🔗 [View Project](https://github.com/ManiMajd89/Two-Story-Building-Free-Vibration-Simulation)  
+Simulates free vibration of a two-story building using numerical methods and analytical solutions.
+
+💡 **Initial Value Problem Euler Methods**  
+🔗 [View Project](https://github.com/ManiMajd89/Initial-Value-Problem-Euler-Methods)  
+Solves second-order IVPs using numerical methods, comparing results with analytical solutions.
+
+💡 **Least Squares Fit**  
+🔗 [View Project](https://github.com/ManiMajd89/Least-Squares-fit)  
+Models GPA and LSAT relationships using polynomial regression and evaluates errors.
+
+💡 **Riemann Sums Approximation**  
+🔗 [View Project](https://github.com/ManiMajd89/Riemann-Sums-Approximating-a-Definite-Integral)  
+Visualizes and compares Riemann sums with analytical integration solutions.
+
+💡 **Geometric Series Summation**  
+🔗 [View Project](https://github.com/ManiMajd89/Geometric-Series-Summation)  
+Highlights the differences between analytical and partial sums of a geometric series.
+
+💡 **MATLAB Fundamentals**  
+🔗 [View Project](https://github.com/ManiMajd89/MATLAB-Fundamentals)  
+A reference for MATLAB beginners covering fundamental commands and concepts.
 
 ---
 
