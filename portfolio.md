@@ -2,36 +2,32 @@
 layout: default
 title: Portfolio
 ---
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 
-<nav>
-  <ul style="list-style-type: none; padding: 0; display: flex; gap: 1rem; background-color: #f8f9fa; padding: 10px; border-bottom: 2px solid #ddd;">
-    <li><a href="/" style="text-decoration: none; font-weight: bold;">🏠 Home</a></li>
-    <li><a href="/portfolio" style="text-decoration: none; font-weight: bold;">📄 Portfolio</a></li>
-    <li><a href="/projects" style="text-decoration: none; font-weight: bold;">🛠️ Projects</a></li>
-    <li><a href="/contact" style="text-decoration: none; font-weight: bold;">📞 Contact Me</a></li>
-  </ul>
-</nav>
+{% include navigation.html %}
 
+<section class="page-hero">
+  <p class="eyebrow">Experience · education · technical work</p>
+  <h1>Resume</h1>
+  <p class="lead">
+    A concise overview of my education, engineering experience, technical skills,
+    and project work.
+  </p>
+</section>
 
-# 📄 My Portfolio
+<section class="resume-section">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">Current document</p>
+      <h2>Mani Majd · Resume</h2>
+    </div>
+    <a class="button button-primary" href="https://drive.google.com/file/d/1mOcW2U0nCxyxkWwO3oaPut0md_vlVJMs">Open PDF</a>
+  </div>
 
-Welcome to my portfolio! Below, you can view and download my resume:
-
----
-## 📂 Resume
-
-### 📥 [**Download My Resume (PDF)**](https://drive.google.com/file/d/1mOcW2U0nCxyxkWwO3oaPut0md_vlVJMs)
-
----
-
-### 🔍 Resume Preview
-<iframe 
-  src="https://drive.google.com/file/d/1mOcW2U0nCxyxkWwO3oaPut0md_vlVJMs/preview" 
-  width="100%" 
-  height="500px" 
-  style="border: none;">
-</iframe>
-
----
-
+  <iframe
+    class="resume-frame"
+    src="https://drive.google.com/file/d/1mOcW2U0nCxyxkWwO3oaPut0md_vlVJMs/preview"
+    title="Mani Majd resume preview"
+    loading="lazy">
+  </iframe>
+</section>

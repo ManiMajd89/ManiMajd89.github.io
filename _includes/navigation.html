@@ -1,0 +1,16 @@
+<nav class="site-nav" aria-label="Primary navigation">
+  <ul>
+    <li>
+      <a href="{{ '/' | relative_url }}"{% if page.title == 'Home' %} class="is-active" aria-current="page"{% endif %}>Home</a>
+    </li>
+    <li>
+      <a href="{{ '/portfolio' | relative_url }}"{% if page.title == 'Portfolio' %} class="is-active" aria-current="page"{% endif %}>Resume</a>
+    </li>
+    <li>
+      <a href="{{ '/projects' | relative_url }}"{% if page.title == 'Projects' %} class="is-active" aria-current="page"{% endif %}>Projects</a>
+    </li>
+    <li>
+      <a href="{{ '/contact' | relative_url }}"{% if page.title == 'Contact Me' %} class="is-active" aria-current="page"{% endif %}>Contact</a>
+    </li>
+  </ul>
+</nav>

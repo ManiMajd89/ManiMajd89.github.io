@@ -2,16 +2,9 @@
 layout: default
 title: Projects
 ---
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 
-<nav>
-  <ul style="list-style-type: none; padding: 0; display: flex; gap: 1rem; background-color: #f8f9fa; padding: 10px; border-bottom: 2px solid #ddd;">
-    <li><a href="/" style="text-decoration: none; font-weight: bold;">Home</a></li>
-    <li><a href="/portfolio" style="text-decoration: none; font-weight: bold;">Portfolio</a></li>
-    <li><a href="/projects" style="text-decoration: none; font-weight: bold;">Projects</a></li>
-    <li><a href="/contact" style="text-decoration: none; font-weight: bold;">Contact</a></li>
-  </ul>
-</nav>
+{% include navigation.html %}
 
 <section class="page-hero">
   <p class="eyebrow">Engineering Science · robotics · machine learning · software</p>
