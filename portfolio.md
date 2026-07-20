@@ -11,7 +11,7 @@ title: Portfolio
   <h1>Resume</h1>
   <p class="lead">
     A focused record of my education, research experience, and engineering work in
-    robotics, machine learning, and perception.
+    robotics, machine learning, and AI.
   </p>
 </section>
 

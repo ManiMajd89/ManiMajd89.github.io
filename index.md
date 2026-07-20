@@ -9,13 +9,14 @@ title: Home
 <section class="home-hero">
   <img class="profile-pic" src="{{ '/175567155.jpeg' | relative_url }}" alt="Portrait of Mani Majd">
   <div class="home-intro">
-    <p class="eyebrow">Engineering Science · Robotics + AI</p>
+    <p class="eyebrow">Robotics · Machine Learning · AI</p>
     <h1>Mani Majd</h1>
     <p class="lead">
       I study Engineering Science at the University of Toronto, specializing in
-      Robotics and pursuing an AI minor. My work focuses on robot learning,
-      computer vision, and neuromorphic AI, from imitation-learning systems for
-      robotic manipulation to perception models for autonomous platforms.
+      Robotics and pursuing an AI minor. I work across robotics, machine learning,
+      and AI, building systems that learn from visual, sensor, and time-series data.
+      My projects range from robot learning and computer vision to prognostics,
+      forecasting, and neuromorphic computing.
     </p>
     <div class="hero-actions">
       <a class="button button-primary" href="{{ '/projects' | relative_url }}">Explore my projects</a>
@@ -39,13 +40,18 @@ title: Home
 
   <article class="detail-block">
     <p class="section-kicker">Research</p>
-    <h2>Robot learning and perception</h2>
+    <h2>Robotics and machine learning</h2>
     <p>
       My research focuses on learning-based perception and decision-making for
       autonomous systems. At the Technical University of Munich, I work on
       imitation learning for robotic manipulation and temporal reasoning for
       semantic object search. Previously, at York University's LCRAIN Lab, I
       developed spiking neural networks for efficient visual perception.
+    </p>
+    <p>
+      Beyond the lab, I have applied machine learning to jet-engine prognostics,
+      weather forecasting, retinal imaging, and autonomous driving using Neural
+      ODEs, LSTMs, object detectors, and spiking networks.
     </p>
   </article>
 </section>

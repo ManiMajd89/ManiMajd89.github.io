@@ -29,7 +29,7 @@ title: Projects
         plans wall-safe routes with A*, and replays the search in Three.js. Edit
         mode lets users move objects while keeping each floorplan fixed.
       </p>
-      <p class="project-note">Private research prototype · updated July 2026</p>
+      <p class="project-note">Updated July 2026</p>
     </article>
 
     <article class="project-card">
