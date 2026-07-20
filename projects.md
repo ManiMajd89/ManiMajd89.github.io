@@ -21,40 +21,36 @@ title: Projects
   <h2>Featured Work</h2>
   <div class="project-grid featured-grid">
     <article class="project-card">
-      <div class="project-meta">
-        <span>JavaScript</span>
-        <span>Robotics + AI</span>
-      </div>
       <h3>Position-History Belief 3D Visualizer</h3>
       <p>
-        Interactive browser prototype for object-search planning in mapped indoor
-        spaces. It turns object position histories into query-conditioned belief
-        maps, updates those beliefs as a robot searches, and visualizes the process
-        with editable floorplans, A* navigation, and a Three.js replay.
+        Interactive browser prototype for position-history-based object search
+        across six mapped indoor environments. It converts object histories into
+        query-conditioned search beliefs, updates them from detections and misses,
+        plans wall-safe routes with A*, and replays the search in Three.js. Edit
+        mode lets users move objects while keeping each floorplan fixed.
       </p>
       <p class="project-note">Private research prototype · updated July 2026</p>
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>Prognostics</span>
-      </div>
       <h3>Jet Turbofan Remaining Useful Life with Neural ODEs</h3>
       <p>
-        Research project on predicting aircraft engine degradation from NASA CMAPSS
-        sensor data. The model treats remaining useful life as a continuous-time
-        dynamical problem, using Neural ODE and CNN-NODE variants to compare against
-        more conventional sequence models.
+        Published research using NASA CMAPSS sensor histories to predict turbofan
+        engine remaining useful life. We developed NODE and CNN-NODE architectures
+        in PyTorch that evolve learned engine states over continuous network depth,
+        with a 1D CNN front end for feature extraction. The models outperformed
+        several published baselines on the fixed-condition FD001 and FD003
+        benchmarks, while performance declined as operating-condition and fault-mode
+        variability increased. Completed in December 2025 and published at the 2026
+        IEEE International Conference on Prognostics and Health Management.
       </p>
-      <a class="project-link" href="https://github.com/EricHuang2FG/Predicting-the-Remaining-Useful-Life-of-Jet-Turbofan-Engines-Using-Depth-Continuous-Neural-ODEs">View project</a>
+      <div class="project-links">
+        <a class="project-link" href="https://doi.org/10.1109/ICPHM69567.2026.11585276">Read IEEE paper</a>
+        <a class="project-link" href="https://github.com/EricHuang2FG/Predicting-the-Remaining-Useful-Life-of-Jet-Turbofan-Engines-Using-Depth-Continuous-Neural-ODEs">View code</a>
+      </div>
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>R</span>
-        <span>Shiny</span>
-      </div>
       <h3>MIE286 Project</h3>
       <p>
         Team-built R/Shiny application for an engineering statistics workflow. The
@@ -66,10 +62,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>Spiking ML</span>
-      </div>
       <h3>Convolutional Spiking Neural Network</h3>
       <p>
         MNIST classifier built with snnTorch and PyTorch to explore event-driven
@@ -86,10 +78,6 @@ title: Projects
   <h2>Machine Learning & Computer Vision</h2>
   <div class="project-grid">
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>LSTM</span>
-      </div>
       <h3>Weather Prediction with LSTMs</h3>
       <p>
         Multi-step weather forecasting model trained on Toronto weather data. It
@@ -101,10 +89,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>OpenCV</span>
-      </div>
       <h3>Image Text Extractor</h3>
       <p>
         OCR pipeline for extracting text from images, screenshots, and scanned
@@ -116,10 +100,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>OpenCV</span>
-      </div>
       <h3>Face Detection</h3>
       <p>
         Real-time webcam face detector using OpenCV and Haar Cascade classifiers.
@@ -131,10 +111,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>NumPy</span>
-        <span>From Scratch</span>
-      </div>
       <h3>Deep Neural Network for Image Classification</h3>
       <p>
         From-scratch neural network implementation for binary RGB image
@@ -142,7 +118,7 @@ title: Projects
         backpropagation, cross-entropy loss, and gradient descent directly in NumPy
         to understand the mechanics behind deeper image classifiers.
       </p>
-      <p class="project-note">Course project · code not currently public</p>
+      <p class="project-note">Code not currently public</p>
     </article>
   </div>
 </section>
@@ -151,10 +127,6 @@ title: Projects
   <h2>Systems, Algorithms & Software</h2>
   <div class="project-grid">
     <article class="project-card">
-      <div class="project-meta">
-        <span>Perl</span>
-        <span>Zephyr RTC</span>
-      </div>
       <h3>Firmware Onboarding Project</h3>
       <p>
         Real-time clock onboarding project for working with Zephyr firmware APIs.
@@ -166,10 +138,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>C</span>
-        <span>Image Algorithms</span>
-      </div>
       <h3>Seam Carving in C</h3>
       <p>
         Content-aware image resizer written in C. The program computes pixel energy,
@@ -180,10 +148,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>C</span>
-        <span>Search</span>
-      </div>
       <h3>Autocomplete Engine</h3>
       <p>
         Weighted autocomplete engine built around sorted term data and binary
@@ -195,10 +159,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>NLP</span>
-      </div>
       <h3>Semantic Similarity</h3>
       <p>
         Classical NLP project that builds semantic descriptor vectors from text
@@ -215,10 +175,6 @@ title: Projects
   <h2>Games & Interactive Tools</h2>
   <div class="project-grid">
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>AI Game Logic</span>
-      </div>
       <h3>Gomoku: Five in a Row</h3>
       <p>
         Command-line Gomoku game with board validation, win detection, and an
@@ -229,10 +185,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>Word Game</span>
-      </div>
       <h3>Wordle Blitz</h3>
       <p>
         Custom Wordle-style game where players guess a five-letter word within a
@@ -243,10 +195,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>Game</span>
-      </div>
       <h3>Rock Paper Scissors Lizard Spock</h3>
       <p>
         Expanded version of Rock Paper Scissors with five move choices and two play
@@ -257,10 +205,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>Simulation</span>
-      </div>
       <h3>Health and Hedons Tracker</h3>
       <p>
         Activity simulation that tracks health and happiness points over time.
@@ -276,10 +220,6 @@ title: Projects
   <h2>Utilities & Small Builds</h2>
   <div class="project-grid">
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>tkinter</span>
-      </div>
       <h3>Scientific Calculator</h3>
       <p>
         Desktop calculator built with Python's tkinter library. It supports basic
@@ -290,10 +230,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>Math Tool</span>
-      </div>
       <h3>EasyMath</h3>
       <p>
         Python calculator for common arithmetic, powers, roots, and trigonometric
@@ -304,10 +240,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>CLI Utility</span>
-      </div>
       <h3>YouTube Downloader</h3>
       <p>
         Small downloader utility built around yt-dlp. It lets a user provide a
@@ -318,10 +250,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>Text Effect</span>
-      </div>
       <h3>Gradual Typing Effect</h3>
       <p>
         Lightweight script that prints text character by character to create a
@@ -332,10 +260,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>Python</span>
-        <span>Cryptography</span>
-      </div>
       <h3>Cryptography</h3>
       <p>
         Caesar cipher implementation for encoding and decoding messages with a
@@ -351,10 +275,6 @@ title: Projects
   <h2>Engineering Analysis & MATLAB</h2>
   <div class="project-grid">
     <article class="project-card">
-      <div class="project-meta">
-        <span>MATLAB</span>
-        <span>Structures</span>
-      </div>
       <h3>Bridge Analysis</h3>
       <p>
         CIV102 bridge-analysis project for evaluating a bridge under train loading.
@@ -365,10 +285,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>MATLAB</span>
-        <span>Dynamics</span>
-      </div>
       <h3>Two-Story Building Free Vibration Simulation</h3>
       <p>
         Numerical simulation of a two-story building modeled as a coupled dynamic
@@ -379,10 +295,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>MATLAB</span>
-        <span>Numerical Methods</span>
-      </div>
       <h3>Initial Value Problem Euler Methods</h3>
       <p>
         Solver for a second-order initial value problem using Euler and Improved
@@ -393,10 +305,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>MATLAB</span>
-        <span>Regression</span>
-      </div>
       <h3>Least Squares Fit</h3>
       <p>
         Polynomial least-squares fitting exercise using linear, quadratic, and cubic
@@ -407,10 +315,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>MATLAB</span>
-        <span>Calculus</span>
-      </div>
       <h3>Riemann Sums Approximation</h3>
       <p>
         Visualization of left and right Riemann sums for approximating a definite
@@ -421,10 +325,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>MATLAB</span>
-        <span>Series</span>
-      </div>
       <h3>Geometric Series Summation</h3>
       <p>
         MATLAB comparison of partial sums and the analytical value of a geometric
@@ -435,10 +335,6 @@ title: Projects
     </article>
 
     <article class="project-card">
-      <div class="project-meta">
-        <span>MATLAB</span>
-        <span>Reference</span>
-      </div>
       <h3>MATLAB Fundamentals</h3>
       <p>
         Compact reference project collecting essential MATLAB commands and patterns.
@@ -454,10 +350,6 @@ title: Projects
   <h2>Research</h2>
   <div class="project-grid">
     <article class="project-card">
-      <div class="project-meta">
-        <span>Biology</span>
-        <span>Toronto Science Fair</span>
-      </div>
       <h3>NeuroGenix Alpha</h3>
       <p>
         Theoretical research project exploring a recombinant protein concept for
