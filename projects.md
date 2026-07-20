@@ -35,30 +35,18 @@ title: Projects
     <article class="project-card">
       <h3>Jet Turbofan Remaining Useful Life with Neural ODEs</h3>
       <p>
-        Published research using NASA CMAPSS sensor histories to predict turbofan
-        engine remaining useful life. We developed NODE and CNN-NODE architectures
-        in PyTorch that evolve learned engine states over continuous network depth,
-        with a 1D CNN front end for feature extraction. The models outperformed
-        several published baselines on the fixed-condition FD001 and FD003
-        benchmarks, while performance declined as operating-condition and fault-mode
-        variability increased. Completed in December 2025 and published at the 2026
-        IEEE International Conference on Prognostics and Health Management.
+        Published research on predicting how many operating cycles remain before a
+        turbofan engine reaches the end of its useful life. Using NASA's CMAPSS
+        sensor data, we built two PyTorch models: a Neural ODE and a CNN-NODE that
+        uses a convolutional network to extract useful patterns from the sensor
+        history before estimating remaining life. On FD001 and FD003, where
+        operating conditions are fixed, the models outperformed several published
+        baselines. Completed in December 2025 and published at IEEE ICPHM 2026.
       </p>
       <div class="project-links">
         <a class="project-link" href="https://doi.org/10.1109/ICPHM69567.2026.11585276">Read IEEE paper</a>
         <a class="project-link" href="https://github.com/EricHuang2FG/Predicting-the-Remaining-Useful-Life-of-Jet-Turbofan-Engines-Using-Depth-Continuous-Neural-ODEs">View code</a>
       </div>
-    </article>
-
-    <article class="project-card">
-      <h3>MIE286 Project</h3>
-      <p>
-        Team-built R/Shiny application for an engineering statistics workflow. The
-        project uses generated app questions, a reproducible renv environment, and
-        a structured app directory so the analysis can be run consistently by other
-        contributors.
-      </p>
-      <a class="project-link" href="https://github.com/derkychen/mie286-project">View project</a>
     </article>
 
     <article class="project-card">
@@ -135,6 +123,17 @@ title: Projects
         common build and device-tree setup issues.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/firmware-onboarding">View project</a>
+    </article>
+
+    <article class="project-card">
+      <h3>MIE286 Project</h3>
+      <p>
+        Team-built R/Shiny application for an engineering statistics workflow. The
+        project uses generated app questions, a reproducible renv environment, and
+        a structured app directory so the analysis can be run consistently by other
+        contributors.
+      </p>
+      <a class="project-link" href="https://github.com/derkychen/mie286-project">View project</a>
     </article>
 
     <article class="project-card">
