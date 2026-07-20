@@ -23,11 +23,12 @@ title: Projects
     <article class="project-card">
       <h3>Position-History Belief 3D Visualizer</h3>
       <p>
-        Interactive browser prototype for position-history-based object search
-        across six mapped indoor environments. It converts object histories into
-        query-conditioned search beliefs, updates them from detections and misses,
-        plans wall-safe routes with A*, and replays the search in Three.js. Edit
-        mode lets users move objects while keeping each floorplan fixed.
+        Built an interactive Three.js research prototype for position-history-based
+        object search across six mapped indoor environments. It turns object
+        histories into query-conditioned belief maps, updates probabilities after
+        detections and misses, and plans wall-safe routes with A*. Users can inspect
+        belief components, replay each search in 3D, and move objects without
+        changing the underlying floorplans.
       </p>
       <p class="project-note">Updated July 2026</p>
     </article>
@@ -35,13 +36,12 @@ title: Projects
     <article class="project-card">
       <h3>Jet Turbofan Remaining Useful Life with Neural ODEs</h3>
       <p>
-        Published research on predicting how many operating cycles remain before a
-        turbofan engine reaches the end of its useful life. Using NASA's CMAPSS
-        sensor data, we built two PyTorch models: a Neural ODE and a CNN-NODE that
-        uses a convolutional network to extract useful patterns from the sensor
-        history before estimating remaining life. On FD001 and FD003, where
-        operating conditions are fixed, the models outperformed several published
-        baselines. Completed in December 2025 and published at IEEE ICPHM 2026.
+        Co-developed Neural ODE and CNN-NODE models in PyTorch to estimate how many
+        operating cycles remain before a turbofan reaches the end of its useful
+        life. Trained on NASA's CMAPSS sensor histories, the CNN-NODE first extracts
+        useful patterns before estimating remaining life. The models outperformed
+        several published baselines on the fixed-condition FD001 and FD003
+        benchmarks, and the work was published at IEEE ICPHM 2026.
       </p>
       <div class="project-links">
         <a class="project-link" href="https://doi.org/10.1109/ICPHM69567.2026.11585276">Read IEEE paper</a>
@@ -52,25 +52,24 @@ title: Projects
     <article class="project-card">
       <h3>OCT-EyeSNN: Retinal OCT Classification</h3>
       <p>
-        Leading a five-member UTMIST team developing OCT-EyeSNN, a convolutional
-        spiking neural network that classifies retinal OCT scans into four
-        diagnostic categories. I built the end-to-end pipeline for image
-        preprocessing, spike encoding, unsupervised pretraining, and
-        surrogate-gradient optimization,
-        achieving 97.7% accuracy, a 97.7% F1 score, and 98.0% precision on the
-        held-out test set. The project also benchmarks the model against compact CNN
-        and Vision Transformer baselines and evaluates Intel Loihi simulation for
-        energy efficiency, latency, and memory use.
+        Lead a five-member UTMIST team developing OCT-EyeSNN, a convolutional
+        spiking neural network for four-category retinal OCT classification. I built
+        the pipeline for preprocessing, spike encoding, unsupervised pretraining,
+        and surrogate-gradient optimization. The model achieved 97.7% accuracy, a
+        97.7% F1 score, and 98.0% precision. We also compare it with compact CNN and
+        Vision Transformer baselines and use Intel Loihi simulation to study energy
+        use, latency, and memory.
       </p>
     </article>
 
     <article class="project-card">
       <h3>Convolutional Spiking Neural Network</h3>
       <p>
-        MNIST classifier built with snnTorch and PyTorch to explore event-driven
-        learning. The network uses leaky integrate-and-fire neurons, surrogate
-        gradients, and time-stepped inputs to study how spiking models can perform
-        image classification with sparse temporal computation.
+        Built a convolutional spiking neural network in PyTorch and snnTorch to
+        classify MNIST digits through output spike counts. Convolutional layers feed
+        leaky integrate-and-fire neurons over 100 simulation steps, while surrogate
+        gradients make the event-driven model trainable end to end. After one epoch,
+        it reached 97.41% test accuracy on 10,000 images.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/convolutional-spiking-neural-network">View project</a>
     </article>
@@ -83,10 +82,11 @@ title: Projects
     <article class="project-card">
       <h3>Weather Prediction with LSTMs</h3>
       <p>
-        Multi-step weather forecasting model trained on Toronto weather data. It
-        builds sliding-window time-series datasets, predicts several future steps at
-        once, and uses a PyTorch LSTM with dropout and a reshaped output head for
-        multi-variable prediction.
+        Built a multi-output PyTorch LSTM to forecast six future time steps from
+        10-step windows of Toronto weather data. The model uses two recurrent layers,
+        dropout, and a reshaped output head to predict several variables together.
+        On held-out data, its best reported metrics were 0.8385 RMSE, 0.1276 MAE,
+        and 0.0508 R².
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Weather-Prediction-model-using-LSTMs">View project</a>
     </article>
@@ -94,10 +94,12 @@ title: Projects
     <article class="project-card">
       <h3>Image Text Extractor</h3>
       <p>
-        OCR pipeline for extracting text from images, screenshots, and scanned
-        documents. The project combines OpenCV preprocessing with Tesseract OCR to
-        isolate text regions, convert them into readable text, and save the result
-        for downstream use.
+        Built an OCR pipeline that converts text in photographs, screenshots, and
+        scanned documents into editable output. OpenCV preprocesses each image and
+        isolates text regions, which are cropped and resized before Tesseract
+        performs recognition. The tool writes the extracted text to a file and also
+        prints it in the terminal, keeping the workflow practical and easy to
+        inspect.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Image-Text-Extractor">View project</a>
     </article>
@@ -105,10 +107,11 @@ title: Projects
     <article class="project-card">
       <h3>Face Detection</h3>
       <p>
-        Real-time webcam face detector using OpenCV and Haar Cascade classifiers.
-        It captures frames from a live camera feed, marks detected faces with
-        bounding boxes, and exposes simple parameters for improving detection under
-        different lighting and camera conditions.
+        Built a real-time face detector that processes webcam frames with OpenCV's
+        pretrained Haar cascade. The app marks each detected face with a labeled
+        bounding box, supports adjustable detection parameters, and exits cleanly
+        from the live feed. It demonstrates a complete capture, inference, and
+        visualization loop without requiring a custom-trained model.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Face-Detection/tree/main">View project</a>
     </article>
@@ -116,10 +119,12 @@ title: Projects
     <article class="project-card">
       <h3>Deep Neural Network for Image Classification</h3>
       <p>
-        From-scratch neural network implementation for binary RGB image
-        classification. I implemented initialization, forward propagation,
-        backpropagation, cross-entropy loss, and gradient descent directly in NumPy
-        to understand the mechanics behind deeper image classifiers.
+        Implemented an L-layer binary image classifier from scratch in NumPy to
+        understand the mechanics hidden by machine-learning frameworks. I wrote
+        parameter initialization, forward propagation, ReLU and sigmoid activations,
+        binary cross-entropy, backpropagation, and gradient descent directly. Trained
+        on RGB cat and non-cat images, the deeper model improved on a
+        logistic-regression baseline through architecture and parameter tuning.
       </p>
       <p class="project-note">Code not currently public</p>
     </article>
@@ -132,10 +137,11 @@ title: Projects
     <article class="project-card">
       <h3>Firmware Onboarding Project</h3>
       <p>
-        Real-time clock onboarding project for working with Zephyr firmware APIs.
-        The task involves configuring RTC support, creating a small embedded app,
-        and repeatedly logging date and time from a Zephyr device while navigating
-        common build and device-tree setup issues.
+        Built a Zephyr RTOS onboarding application that initializes a real-time
+        clock and logs relative date and time at a fixed interval. The work covered
+        Kconfig, device-tree overlays, CMake and West builds, and debugging common
+        RTC API and board-configuration failures. It provided hands-on experience
+        developing embedded C inside a multi-contributor firmware repository.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/firmware-onboarding">View project</a>
     </article>
@@ -143,10 +149,12 @@ title: Projects
     <article class="project-card">
       <h3>MIE286 Project</h3>
       <p>
-        Team-built R/Shiny application for an engineering statistics workflow. The
-        project uses generated app questions, a reproducible renv environment, and
-        a structured app directory so the analysis can be run consistently by other
-        contributors.
+        Co-developed an R Shiny experiment for studying how timer feedback affects
+        mental-arithmetic speed and accuracy. The app generates 40 reproducible
+        arithmetic questions, records per-question response times and correctness,
+        and exports participant summaries. An R analysis pipeline compares feedback
+        groups using visualizations, normality and variance checks, t-tests, and
+        Pearson correlation.
       </p>
       <a class="project-link" href="https://github.com/derkychen/mie286-project">View project</a>
     </article>
@@ -154,9 +162,12 @@ title: Projects
     <article class="project-card">
       <h3>Seam Carving in C</h3>
       <p>
-        Content-aware image resizer written in C. The program computes pixel energy,
-        uses dynamic programming to find low-energy vertical seams, and removes
-        those seams while preserving the more visually important parts of an image.
+        Implemented content-aware image resizing in C by repeatedly removing
+        low-energy vertical seams from raw RGB images. The program computes
+        dual-gradient pixel energies, uses dynamic programming to build cumulative
+        seam costs, backtracks the minimum path, and writes each reduced image.
+        Unlike simple cropping, it preserves higher-energy edges and important
+        content as image width decreases.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/SeamCarver-C-Content-Aware-Image-Resizer">View project</a>
     </article>
@@ -164,10 +175,11 @@ title: Projects
     <article class="project-card">
       <h3>Autocomplete Engine</h3>
       <p>
-        Weighted autocomplete engine built around sorted term data and binary
-        search. It finds matching prefixes efficiently, ranks candidate completions
-        by weight, and keeps the implementation small enough to reason about memory
-        and runtime behavior directly.
+        Built a weighted autocomplete engine in C using sorted term records and
+        binary search to locate the first and last matches for a prefix. Matching
+        terms are ranked by descending weight with qsort, keeping lookup overhead
+        low without a trie. The implementation handled more than 90,000 city names;
+        documented tests reported sub-2 ms lookups on 50,000 terms.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/c-autocomplete-engine">View project</a>
     </article>
@@ -175,10 +187,12 @@ title: Projects
     <article class="project-card">
       <h3>Semantic Similarity</h3>
       <p>
-        Classical NLP project that builds semantic descriptor vectors from text
-        corpora and compares words with cosine similarity. It focuses on the core
-        idea behind distributional semantics without relying on pretrained neural
-        language models.
+        Built a classical NLP system that learns word meaning from context rather
+        than pretrained embeddings. It tokenizes text corpora, constructs
+        co-occurrence-based semantic descriptor vectors, and uses cosine similarity
+        to choose the closest word from a set of candidates. A separate evaluation
+        routine compares predictions with labeled answers, making word-association
+        accuracy directly measurable.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Semantic-Similarity">View project</a>
     </article>
@@ -191,9 +205,11 @@ title: Projects
     <article class="project-card">
       <h3>Gomoku: Five in a Row</h3>
       <p>
-        Command-line Gomoku game with board validation, win detection, and an
-        AI move evaluator. The project was a practical way to work through
-        grid-based game state, scoring functions, and turn-by-turn decision logic.
+        Built a command-line Gomoku game where a player competes against an AI on an
+        8×8 board. The program validates moves, detects five-in-a-row wins, analyzes
+        open sequences, and scores candidate positions to choose the computer's next
+        move. It combines board-state representation, rule checking, and explainable
+        heuristic decision logic in a complete turn-based game.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Gomuku-Five-in-a-Row-">View project</a>
     </article>
@@ -201,9 +217,11 @@ title: Projects
     <article class="project-card">
       <h3>Wordle Blitz</h3>
       <p>
-        Custom Wordle-style game where players guess a five-letter word within a
-        limited number of attempts. It handles guess validation, feedback for
-        correct and misplaced letters, and replay flow in a simple Python program.
+        Built a Python Wordle-style game that gives players six attempts to identify
+        a five-letter word. Each guess is validated and compared position by
+        position, with distinct feedback for correct letters, misplaced letters,
+        and misses. The program manages attempt limits and win and loss states, then
+        reveals the target word when all six guesses are used.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Wordle-Blitz">View project</a>
     </article>
@@ -211,9 +229,11 @@ title: Projects
     <article class="project-card">
       <h3>Rock Paper Scissors Lizard Spock</h3>
       <p>
-        Expanded version of Rock Paper Scissors with five move choices and two play
-        modes. The program compares player choices against the full rule set and
-        supports playing either against another person or against the computer.
+        Built a command-line implementation of Rock Paper Scissors Lizard Spock with
+        all 10 winning relationships encoded explicitly. Players can choose a
+        two-person game or face a computer opponent whose move is selected randomly.
+        The program validates inputs, resolves ties and wins, and supports replaying
+        with a different mode after each round.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Rock_Paper_Scissors_Lizard_Spock-">View project</a>
     </article>
@@ -221,9 +241,11 @@ title: Projects
     <article class="project-card">
       <h3>Health and Hedons Tracker</h3>
       <p>
-        Activity simulation that tracks health and happiness points over time.
-        It models activities such as running, resting, and carrying textbooks while
-        accounting for tiredness, star bonuses, and changing user state.
+        Built a stateful Python simulation that tracks health and hedons as a user
+        runs, rests, or carries textbooks. Activity rewards change with duration,
+        tiredness, and time-limited star bonuses, so the same action can have
+        different effects over time. Helper functions update cumulative state and
+        recommend the most enjoyable activity for the next minute.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Health-and-Hedons-Tracker">View project</a>
     </article>
@@ -236,9 +258,12 @@ title: Projects
     <article class="project-card">
       <h3>Scientific Calculator</h3>
       <p>
-        Desktop calculator built with Python's tkinter library. It supports basic
-        arithmetic alongside scientific operations, giving me practice with GUI
-        layout, event handling, and input parsing.
+        Built a desktop scientific calculator with Python and Tkinter, combining
+        basic arithmetic with powers, roots, logarithms, and trigonometric
+        functions. A button-driven interface assembles and evaluates expressions,
+        while dedicated handlers manage scientific operations and format decimal
+        results to five places. The project combines GUI layout, event handling,
+        expression parsing, and numerical input validation.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Scientific-Calculator">View project</a>
     </article>
@@ -246,9 +271,12 @@ title: Projects
     <article class="project-card">
       <h3>EasyMath</h3>
       <p>
-        Python calculator for common arithmetic, powers, roots, and trigonometric
-        functions. The project focuses on making a small command-line math utility
-        with clear operation selection and predictable numeric behavior.
+        Built a command-line calculator in Python covering 21 operations, from
+        arithmetic and powers to roots, factorials, logarithms, and six
+        trigonometric functions. Each operation is implemented separately and
+        selected through a repeatable text menu. The project emphasizes predictable
+        numeric behavior, clear input flow, and decomposition into small reusable
+        functions.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/EasyMath">View project</a>
     </article>
@@ -256,9 +284,11 @@ title: Projects
     <article class="project-card">
       <h3>YouTube Downloader</h3>
       <p>
-        Small downloader utility built around yt-dlp. It lets a user provide a
-        video URL, choose an output location, and download the best available
-        quality through a straightforward Python interface.
+        Built a small Python utility around yt-dlp for saving videos from a supplied
+        YouTube URL. The program requests an output directory, selects the best
+        available quality, and reports progress through a straightforward
+        command-line flow. It wraps a capable download library in a simpler
+        interface while keeping file location and download behavior explicit.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Youtube-Downloader">View project</a>
     </article>
@@ -266,9 +296,11 @@ title: Projects
     <article class="project-card">
       <h3>Gradual Typing Effect</h3>
       <p>
-        Lightweight script that prints text character by character to create a
-        terminal typing effect. It is a small but useful exercise in timing,
-        terminal output, and presentation-oriented scripting.
+        Built a Python text animation that reveals a user-provided phrase one
+        character at a time. At each alphabetic position, the script cycles from
+        "a" to the target letter, refreshes the same terminal line, and pauses 0.1
+        seconds between updates. The result is a rolling letter-transition effect
+        built with nested iteration, timing, and terminal control.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Gradual-Typing-Effect">View project</a>
     </article>
@@ -276,9 +308,12 @@ title: Projects
     <article class="project-card">
       <h3>Cryptography</h3>
       <p>
-        Caesar cipher implementation for encoding and decoding messages with a
-        configurable shift. The project is intentionally simple, focusing on string
-        manipulation, modular arithmetic, and the basics of substitution ciphers.
+        Implemented a Caesar cipher in Python for encrypting and decrypting messages
+        with a user-supplied shift key. The program maps characters through ASCII
+        values, applies modular shifts, and reconstructs readable output while
+        preserving the reversible relationship between both operations. It is a
+        compact demonstration of string processing, modular arithmetic, and
+        key-based substitution.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Cryptography">View project</a>
     </article>
@@ -291,9 +326,12 @@ title: Projects
     <article class="project-card">
       <h3>Bridge Analysis</h3>
       <p>
-        CIV102 bridge-analysis project for evaluating a bridge under train loading.
-        The MATLAB workflow calculates shear force, bending moment, and factors of
-        safety to connect structural theory with a practical design problem.
+        Analyzed a 1,200 mm bridge under a 400 N, six-point train load using MATLAB.
+        The script sweeps 345 train positions to generate shear-force and
+        bending-moment envelopes, then evaluates tensile, compressive, shear, glue,
+        and buckling failure modes. It produces factor-of-safety calculations and
+        structural diagrams that connect load placement with governing design
+        limits.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Bridge-Analysis">View project</a>
     </article>
@@ -301,9 +339,11 @@ title: Projects
     <article class="project-card">
       <h3>Two-Story Building Free Vibration Simulation</h3>
       <p>
-        Numerical simulation of a two-story building modeled as a coupled dynamic
-        system. It compares Euler, Improved Euler, and analytical solutions to show
-        how numerical method choice affects displacement predictions over time.
+        Modeled free vibration of a two-story building as a coupled four-state
+        system in MATLAB. An Improved Euler solver propagates floor displacement and
+        velocity over 10 seconds, and runs with 400, 500, and 1,000 time steps are
+        plotted side by side. The comparison shows how temporal resolution affects
+        the numerical response of both floors.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Two-Story-Building-Free-Vibration-Simulation">View project</a>
     </article>
@@ -311,9 +351,11 @@ title: Projects
     <article class="project-card">
       <h3>Initial Value Problem Euler Methods</h3>
       <p>
-        Solver for a second-order initial value problem using Euler and Improved
-        Euler methods. The project compares both numerical approximations with the
-        analytical solution to make error behavior visible.
+        Solved a second-order initial-value problem in MATLAB with Euler and Improved
+        Euler methods, then compared both against the closed-form solution over 10
+        seconds. The script evaluates five step counts from 45 to 250 and plots each
+        approximation. Improved Euler reaches useful accuracy with fewer steps, with
+        N=55 identified as a practical balance.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Initial-Value-Problem-Euler-Methods">View project</a>
     </article>
@@ -321,9 +363,12 @@ title: Projects
     <article class="project-card">
       <h3>Least Squares Fit</h3>
       <p>
-        Polynomial least-squares fitting exercise using linear, quadratic, and cubic
-        models. The script computes fit coefficients, evaluates error, and plots the
-        fitted curves against the source data.
+        Compared linear, quadratic, and cubic least-squares models for the
+        relationship between LSAT and GPA data. The MATLAB script constructs each
+        fit, calculates its coefficients and mean-squared error, and plots all three
+        curves against the observations. This makes the tradeoff between model
+        complexity and residual error visible instead of selecting a polynomial by
+        appearance alone.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Least-Squares-fit">View project</a>
     </article>
@@ -331,9 +376,11 @@ title: Projects
     <article class="project-card">
       <h3>Riemann Sums Approximation</h3>
       <p>
-        Visualization of left and right Riemann sums for approximating a definite
-        integral. The project compares numerical estimates with the analytical result
-        as the number of subintervals changes.
+        Visualized left and right Riemann-sum approximations for the integral of
+        sqrt(x+1) from 0 to 3. The MATLAB script increases the number of subintervals
+        from 10 to 100 and compares both estimates with the analytical value 14/3.
+        The plot shows the two numerical sequences converging toward the exact
+        integral from opposite sides.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Riemann-Sums-Approximating-a-Definite-Integral">View project</a>
     </article>
@@ -341,9 +388,11 @@ title: Projects
     <article class="project-card">
       <h3>Geometric Series Summation</h3>
       <p>
-        MATLAB comparison of partial sums and the analytical value of a geometric
-        series. It uses iterative and vectorized calculations to show convergence as
-        more terms are included.
+        Compared iterative and vectorized calculations of a geometric series with
+        first term 1 and common ratio 1/4. The MATLAB script computes the first 20
+        partial sums, plots them against the exact infinite sum 4/3, and shows how
+        quickly both implementations converge. The exercise connects loop-based
+        computation, array operations, and analytical validation.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/Geometric-Series-Summation">View project</a>
     </article>
@@ -351,9 +400,12 @@ title: Projects
     <article class="project-card">
       <h3>MATLAB Fundamentals</h3>
       <p>
-        Compact reference project collecting essential MATLAB commands and patterns.
-        It serves as a quick-start guide for scripts, vectors, matrices, plotting,
-        and common syntax used in introductory engineering computation.
+        Created a compact MATLAB reference covering arrays, matrices, indexing,
+        mathematical operations, logical expressions, control flow, functions, and
+        plotting. Each section can be run independently to inspect its output,
+        making the script useful as both an introductory exercise and a practical
+        syntax reference. The project establishes patterns reused throughout later
+        numerical-analysis work.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/MATLAB-Fundamentals">View project</a>
     </article>
@@ -366,10 +418,12 @@ title: Projects
     <article class="project-card">
       <h3>NeuroGenix Alpha</h3>
       <p>
-        Theoretical research project exploring a recombinant protein concept for
-        Alzheimer's disease prevention. The proposal combines Sirtuin-6 and the
-        catalytic domain of telomerase as a possible neuroprotective strategy and
-        earned bronze at the 2024 Toronto Science Fair.
+        Developed a theoretical recombinant-protein proposal exploring whether a
+        construct combining SIRT6 with the catalytic domain of telomerase could
+        support neuroprotection relevant to Alzheimer's disease. The report connects
+        literature on DNA repair, telomere maintenance, and protein design into a
+        testable research concept. It earned a bronze award at the 2024 Toronto
+        Science Fair.
       </p>
       <a class="project-link" href="https://github.com/ManiMajd89/ManiMajd89.github.io/blob/main/NeuroGenix-Aplha%20-%20Recombinant%20Brain%20Rehabilitating%20Protein.docx%20(1).pdf">Read research PDF</a>
     </article>
