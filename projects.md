@@ -10,10 +10,8 @@ title: Projects
   <p class="eyebrow">Engineering Science · robotics · machine learning · software</p>
   <h1>Projects</h1>
   <p class="lead">
-    A curated set of projects I have built across robotics, machine learning,
-    embedded systems, algorithms, numerical modeling, and applied engineering.
-    Each project taught me something different about turning technical ideas into
-    working systems.
+    A selection of projects I've built across robotics, machine learning, software,
+    and engineering.
   </p>
 </section>
 
