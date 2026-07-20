@@ -427,7 +427,7 @@ img[alt="Mani Majd"] {
 }
 
 .featured-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .project-card {
@@ -629,14 +629,6 @@ img[alt="Mani Majd"] {
   .site-nav {
     top: 10px;
     margin-bottom: 2.25rem;
-  }
-
-  .featured-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .featured-grid .project-card:last-child {
-    grid-column: 1 / -1;
   }
 }
 

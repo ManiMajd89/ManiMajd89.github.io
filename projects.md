@@ -50,6 +50,21 @@ title: Projects
     </article>
 
     <article class="project-card">
+      <h3>OCT-EyeSNN: Retinal OCT Classification</h3>
+      <p>
+        Leading a five-member UTMIST team developing OCT-EyeSNN, a convolutional
+        spiking neural network that classifies retinal OCT scans into four
+        diagnostic categories. I built the end-to-end pipeline for image
+        preprocessing, spike encoding, unsupervised pretraining, and
+        surrogate-gradient optimization,
+        achieving 97.7% accuracy, a 97.7% F1 score, and 98.0% precision on the
+        held-out test set. The project also benchmarks the model against compact CNN
+        and Vision Transformer baselines and evaluates Intel Loihi simulation for
+        energy efficiency, latency, and memory use.
+      </p>
+    </article>
+
+    <article class="project-card">
       <h3>Convolutional Spiking Neural Network</h3>
       <p>
         MNIST classifier built with snnTorch and PyTorch to explore event-driven
