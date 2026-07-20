@@ -10,8 +10,8 @@ title: Portfolio
   <p class="eyebrow">Experience · education · technical work</p>
   <h1>Resume</h1>
   <p class="lead">
-    A concise overview of my education, engineering experience, technical skills,
-    and project work.
+    Research experience, technical leadership, and selected projects spanning
+    robot learning, computer vision, neuromorphic AI, and embedded systems.
   </p>
 </section>
 
