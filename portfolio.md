@@ -21,12 +21,12 @@ title: Portfolio
       <p class="section-kicker">Current document</p>
       <h2>Mani Majd · Resume</h2>
     </div>
-    <a class="button button-primary" href="https://drive.google.com/file/d/1mOcW2U0nCxyxkWwO3oaPut0md_vlVJMs">Open PDF</a>
+    <a class="button button-primary" href="{{ '/Mani_Majd_AuToronto.pdf' | relative_url }}">Open PDF</a>
   </div>
 
   <iframe
     class="resume-frame"
-    src="https://drive.google.com/file/d/1mOcW2U0nCxyxkWwO3oaPut0md_vlVJMs/preview"
+    src="{{ '/Mani_Majd_AuToronto.pdf' | relative_url }}#view=FitH"
     title="Mani Majd resume preview"
     loading="lazy">
   </iframe>
